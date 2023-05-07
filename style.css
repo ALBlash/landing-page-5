@@ -57,6 +57,10 @@ body {
     }
 
     /*button*/
+    .button-control {
+        width: 165px !important;
+        display: flex;
+    }
 
     button {
         width: 130px !important;
@@ -194,6 +198,13 @@ body {
         background: #F6F6F624 0% 0% no-repeat padding-box !important;
         border: 2px solid #FFFFFF !important;
         opacity: 1 !important;
+    }
+
+
+    .button-control {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     button {
